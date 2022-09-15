@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: left top;
+    background-color: lightpink;
+}
+#question-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 80%;
+}
+.quistion-blog
+{
+    margin: 50px;
+    padding: 50px;
+}
