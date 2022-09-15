@@ -11,15 +11,38 @@ body {
 }
 #question-container
 {
+    margin: auto;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
-    width: 80%;
+    background-color:lavenderblush;
+    width: 70%;
 }
 .quistion-blog
 {
     margin: 50px;
     padding: 50px;
+    border: 1px solid lightcoral;
+}
+.question
+{
+    color: rgb(22, 22, 58);
+    margin: 10px;
+}
+.answer
+{
+    color: rgb(76, 74, 74);
+}
+table
+{
+    border:1px solid black
+}
+
+td
+{
+    padding: 5px;
+    margin: 5px;
+    border: 0.5px solid black;
 }
